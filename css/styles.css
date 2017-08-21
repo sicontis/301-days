@@ -1,0 +1,43 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif; 
+    background: url('http://api.thumbr.it/whitenoise-361x370.png?background=fcfcfcff&noise=626262&density=15&opacity=15');
+    color: #576777;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 1em;
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 1px dotted #F24709;
+}
+header h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #F24709;
+}
+header h3 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 1em 0;
+}
